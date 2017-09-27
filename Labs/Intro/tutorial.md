@@ -1,5 +1,5 @@
 1. Download 64-bit Linux Miniconda installation script for Python 3.6 from [here](https://conda.io/miniconda.html).
-2. Run `sh <path-to-folder>/Miniconda3-latest-MacOSX-x86_64.sh`
+2. Run `sh <path-to-folder>/Miniconda3-latest-Linux-x86_64.sh`
 3. Scroll through the license (press the space bar to move through quickly), type ‘yes’ to approve the terms, and then accept all the installation defaults.
 4. Close the Terminal. Then, restart it.
 5. Run `conda update conda` to update miniconda.
