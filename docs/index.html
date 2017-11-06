@@ -95,23 +95,23 @@ We have two lectures of 1h per week, Monday 15-16 and Tuesday 16-17 both in the 
 <ol class="org-ol">
 <li><a href="https://github.com/carlhenrikek/COMS30007/blob/master/Lectures/01.pdf">Introduction</a> (w1)</li>
 <li><a href="https://github.com/carlhenrikek/COMS30007/blob/master/Lectures/02.pdf">Basic Probabilities</a> (w1)</li>
-<li>Distributions and further Probabilities (w2)</li>
-<li>Linear Regression (w2)</li>
-<li>Dual Linear Regression (w3)</li>
-<li>Gaussian Processes (w3)</li>
-<li>Gaussian Processes II and Unsupervised Learning (w4)</li>
-<li>Bayesian Optimisation (w4)</li>
-<li>Dirichlet Processes (w5)</li>
-<li>Topic Models (w5)</li>
-<li>Graphical Models (TBC) (w6)</li>
-<li>Inference I: Stochastic Methods (w6)</li>
-<li>Inference II: Variational Methods (w7)</li>
-<li>Inference III: Laplace Approximation (w7)</li>
+<li><a href="https://github.com/carlhenrikek/COMS30007/blob/master/Lectures/03.pdf">Distributions and further Probabilities</a> (w2)</li>
+<li><a href="https://github.com/carlhenrikek/COMS30007/blob/master/Lectures/04.pdf">Linear Regression</a> (w2)</li>
+<li><a href="https://github.com/carlhenrikek/COMS30007/blob/master/Lectures/05.pdf">Dual Linear Regression</a> (w3)</li>
+<li><a href="https://github.com/carlhenrikek/COMS30007/blob/master/Lectures/06.pdf">Gaussian Processes</a> (w3)</li>
+<li><a href="https://github.com/carlhenrikek/COMS30007/blob/master/Lectures/07.pdf">Gaussian Processes II and Unsupervised Learning</a> (w4)</li>
+<li><a href="https://github.com/carlhenrikek/COMS30007/blob/master/Lectures/08.pdf">Bayesian Optimisation</a> (w4)</li>
+<li><a href="https://github.com/carlhenrikek/COMS30007/blob/master/Lectures/09.pdf">Dirichlet Processes</a> (w5)</li>
+<li><a href="https://github.com/carlhenrikek/COMS30007/blob/master/Lectures/10.pdf">Topic Models</a> (w5)</li>
+<li><a href="https://github.com/carlhenrikek/COMS30007/blob/master/Lectures/11.pdf">Graphical Models</a> (w6)</li>
+<li><a href="https://github.com/carlhenrikek/COMS30007/blob/master/Lectures/12.pdf">Inference I: Laplace Approximation</a> (w6)</li>
+<li>Inference II: Stochastic Methods (w7)</li>
+<li>Inference III: Variational Methods (w7)</li>
 <li>Reinforcement Learning (TBC) (w9)</li>
-<li>Neural Networks (TBC) (w9)</li>
+<li>Neural Networks (w9)</li>
 <li>Summary (w10)</li>
-<li>Practical Machine Learning (TBC) (w11)</li>
-<li>Practical Machine Learning II (TBC) (w11)</li>
+<li>Dr. Tom Dieth Amazon Research (w11)</li>
+<li>Dr. Tom Dieth Amazon Research (w11)</li>
 </ol>
 </div>
 </div>
@@ -145,7 +145,17 @@ You can download the description of the coursework <a href="https://github.com/c
 <h3 id="org5d956ff">Inference</h3>
 <div class="outline-text-3" id="text-org5d956ff">
 <p>
-This coursework will be released in the beginning of week 6.
+The second coursework will focus on how we can perform approximative inference in models where it is intractable, computationally or analytically to compute the marginal distribution in closed for.
+</p>
+
+<p>
+\[
+p(y) = \int p(y,x) \textrm{d}\mathbf{x}
+\]
+</p>
+
+<p>
+This coursework will be released in the beginning of week 7 and the deadline will be on the <b>1st of December</b> in terms of a report that you will submit on SAFE.
 </p>
 </div>
 </div>
@@ -176,129 +186,129 @@ We will use <b>Bishop, C. M., Pattern recognition and machine learning (2006)</b
 <colgroup>
 <col  class="org-right" />
 
-<col  class="org-right" />
+<col  class="org-left" />
 
 <col  class="org-left" />
 </colgroup>
 <thead>
 <tr>
 <th scope="col" class="org-right">Lecture</th>
-<th scope="col" class="org-right">Bishop</th>
+<th scope="col" class="org-left">Bishop</th>
 <th scope="col" class="org-left">Other Material</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="org-right">1</td>
-<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
 <td class="org-right">2</td>
-<td class="org-right">1.1, 1.2.1-4, 1.3, 1.4</td>
+<td class="org-left">1.1, 1.2.1-4, 1.3, 1.4</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
 <td class="org-right">3</td>
-<td class="org-right">2-2.3.5, 2.3.9, (2.4)</td>
+<td class="org-left">2-2.3.5, 2.3.9, (2.4)</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
 <td class="org-right">4</td>
-<td class="org-right">3.1, 3.3-3.6</td>
+<td class="org-left">3.1, 3.3-3.6</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
 <td class="org-right">5</td>
-<td class="org-right">6-6.2</td>
+<td class="org-left">6-6.2</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
 <td class="org-right">6</td>
-<td class="org-right">6.4-6.4.2</td>
+<td class="org-left">6.4-6.4.2</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
 <td class="org-right">7</td>
-<td class="org-right">6.4.3-6.4.4, 12.2-12.2.1</td>
+<td class="org-left">6.4.3-6.4.4, 12.2-12.2.1</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
 <td class="org-right">8</td>
-<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
 <td class="org-right">9</td>
-<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
 <td class="org-right">10</td>
-<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
 <td class="org-right">11</td>
-<td class="org-right">8.1-3</td>
+<td class="org-left">8.1-3</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
 <td class="org-right">12</td>
-<td class="org-right">11-11.3</td>
+<td class="org-left">4.3-4.4</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
 <td class="org-right">13</td>
-<td class="org-right">10.1, 10.3</td>
+<td class="org-left">11.1.0-2,11.1.4, 11.2.0,11.3</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
 <td class="org-right">14</td>
-<td class="org-right">4.3-4.4</td>
+<td class="org-left">10.1, 10.3</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
 <td class="org-right">15</td>
-<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
 <td class="org-right">16</td>
-<td class="org-right">5-5.3</td>
+<td class="org-left">5-5.3</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
 <td class="org-right">17</td>
-<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
 <td class="org-right">18</td>
-<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
 <td class="org-right">19</td>
-<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
