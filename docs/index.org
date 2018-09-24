@@ -1,0 +1,66 @@
+#+STARTUP: showall expand indent
+#+STARTUP: hidestars
+#+options: toc:nil
+#+HTML_MATHJAX:  path:"http://cdn.mathjax.org/mathjax/latest/MathJax.js"
+#+begin_src yaml :exports results :results value html
+---
+layout: page
+# title: "About"
+---
+#+end_src
+#+results:
+#+BEGIN_EXPORT html
+---
+layout: page
+title: "COMS30007 - Machine Learning"
+---
+#+END_EXPORT
+
+Welcome to the new unit in Machine Learning, this unit will be given for the first time during the academic year 2017/18. 
+
+Machine Learning is the science of how we can build abstractions of the world from data. In this unit we will start with the fundamental underlying principles and philosophies that allows us to learn and then look at how we can formulate these using explicit models. We will then look at how we can fit these models to data in order to "learn".
+
+Machine learning is mathematical in nature and a good grasp of linear algebra and multi-variate calculus is recommended in order to fully digest the material. There is lots of good material on the [[https://en.wikipedia.org/wiki/Internets][internets]] that you can brush up your skill with. 
+
+You can download all the material for the course by checking out the following [[https://github.com/carlhenrikek/COMS30007][GitHub]] repo. As the unit is running for the first time, some things will change during the term so please keep up-to-date with the repo.
+
+* Lectures       
+
+We have two lectures of 1h per week, Monday 15-16 and Tuesday 16-17 both in the Queens Building lecture theatre 1.40. Following the lecture on Tuesday we will have 1h of /currated lecture/ where you tell me what I should talk about. The way this will work is that we have set-up a [[http://reddit.com][reddit]] feed where you can post questions and suggestions. I will then in classic reddit fashion pick topics from the top of the feed. The feed is private at the moment, but we will accept anyone so you can be completely anonomous while posting. This is a bit of an experiment that I hope will work, so I hope that you can help me out with this. Also, please be active on the feed and answer each others questions. And obviously [[https://m.popkey.co/4b9170/0XxR8_s-200x150.gif?c=popkey-web&p=popkey&i=dogs-animals&l=search&f=.gif][pug gifs]] are more than welcome on the feed as well.
+
+1) Introduction (w1)
+
+   In this lecture we will discuss what machine learning is and what it is that allows us to learn. We will also structure the unit for the reminder of the term.
+2) Basic Probabilities (w1)
+3) Distributions and further Probabilities (w2)
+4) Linear Regression (w2)
+5) Dual Linear Regression (w3)
+6) Gaussian Processes (w3)
+7) Gaussian Processes II and Unsupervised Learning (w4)
+8) Bayesian Optimisation (w4)
+9) Dirichlet Processes (w5)
+10) Topic Models (w5)
+11) Graphical Models (TBC) (w6)
+12) Inference I: Stochastic Methods (w6)
+13) Inference II: Variational Methods (w7)
+14) Inference III: Laplace Approximation (w7) 
+15) Reinforcement Learning (TBC) (w9)
+16) Neural Networks (TBC) (w9)
+17) Summary (w10)
+18) Practical Machine Learning (TBC) (w11)
+19) Practical Machine Learning II (TBC) (w11)
+
+* Practical
+Each week we have a one hour lab session. During the labs you will work on the coursework (more on this late). You are free to use whatever programming language that you want for the unit. *But* if you have an interest to continue working in machine learning I truly recommend that you get used to working with =Python= as it is quickly become the standard language for ML. To help people kick their =matlab= habit we will during the first lab session have a crash-course in =Python=.
+
+The unit is assessed through two pieces of coursework and a written exam. The coursework should be done in groups of two to four and are both submitted in terms of a report. The first assignment is worth 35% of the mark while the second is worth 15%. In addition to submitting a report you should also submit your code.
+
+
+* Book
+#+BEGIN_EXPORT html
+{% include image.html url="/bin/bishop.jpg" width=50 align="right"%}
+#+END_EXPORT
+
+We will use *Bishop, C. M., Pattern recognition and machine learning (2006)* for most parts of this unit. The book is an excellent introduction to machine learning and one of the few that provides a consistent and rigourous narrative rather than falling into the trap and becomming a cookbook for practitioners. As the book is rather old we will for a few of the topics use other material that is freely availible.
+
+

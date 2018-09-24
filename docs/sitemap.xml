@@ -4,24 +4,9 @@
   
     
     <url>
-      <loc>https://carlhenrikek.github.io/COMS30007//feed.xml</loc>
+      <loc>https://carlhenrikek.github.io/feed.xml</loc>
       
-        <lastmod>2017-09-23T16:08:28+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://carlhenrikek.github.io/COMS30007//</loc>
-      
-        <lastmod>2017-09-23T16:08:28+01:00</lastmod>
+        <lastmod>2018-09-24T19:09:54+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -34,9 +19,24 @@
   
     
     <url>
-      <loc>https://carlhenrikek.github.io/COMS30007//css/main.css</loc>
+      <loc>https://carlhenrikek.github.io/</loc>
       
-        <lastmod>2017-09-23T16:08:28+01:00</lastmod>
+        <lastmod>2018-09-24T19:09:54+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://carlhenrikek.github.io/css/main.css</loc>
+      
+        <lastmod>2018-09-24T19:09:54+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
