@@ -29,8 +29,6 @@ You can download all the material for the course by checking out the following [
 We have two lectures of 1h per week, Monday 15-16 and Tuesday 16-17 both in the Queens Building lecture theatre 1.40. Following the lecture on Tuesday we will have 1h of /currated lecture/ where you tell me what I should talk about. The way this will work is that we have set-up a [[http://reddit.com][reddit]] feed where you can post questions and suggestions. I will then in classic reddit fashion pick topics from the top of the feed. The feed is private at the moment, but we will accept anyone so you can be completely anonomous while posting. This is a bit of an experiment that I hope will work, so I hope that you can help me out with this. Also, please be active on the feed and answer each others questions. And obviously [[https://m.popkey.co/4b9170/0XxR8_s-200x150.gif?c=popkey-web&p=popkey&i=dogs-animals&l=search&f=.gif][pug gifs]] are more than welcome on the feed as well.
 
 1) Introduction (w1)
-
-   In this lecture we will discuss what machine learning is and what it is that allows us to learn. We will also structure the unit for the reminder of the term.
 2) Basic Probabilities (w1)
 3) Distributions and further Probabilities (w2)
 4) Linear Regression (w2)
@@ -44,11 +42,14 @@ We have two lectures of 1h per week, Monday 15-16 and Tuesday 16-17 both in the 
 12) Inference I: Stochastic Methods (w6)
 13) Inference II: Variational Methods (w7)
 14) Inference III: Laplace Approximation (w7) 
-15) Reinforcement Learning (TBC) (w9)
-16) Neural Networks (TBC) (w9)
-17) Summary (w10)
-18) Practical Machine Learning (TBC) (w11)
-19) Practical Machine Learning II (TBC) (w11)
+15) Neural Networks (w9)
+16) Reinforcement Learning and Decision Making (w9)
+17) Cancelled (w10)
+18) Dr. Niall Twomey (w10)
+19) Dr. Raul Santos-Rodriquez (w11)
+20) Mr. Sam Davis Myrtle AI (w11)
+21) Summary Lecture (w12)
+
 
 * Practical
 Each week we have a one hour lab session. During the labs you will work on the coursework (more on this late). You are free to use whatever programming language that you want for the unit. *But* if you have an interest to continue working in machine learning I truly recommend that you get used to working with =Python= as it is quickly become the standard language for ML. To help people kick their =matlab= habit we will during the first lab session have a crash-course in =Python=.
