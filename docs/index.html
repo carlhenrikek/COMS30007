@@ -70,23 +70,18 @@
 
   <article class="post-content">
     <p>
-Welcome to the new unit in Machine Learning, this unit is given for the second time the academic year 2018/19. 
+Machine Learning is the science of how we can build abstractions of the world from data. In this unit we will start with the fundamental underlying principles and philosophies that allows us to learn and then look at how we can formulate these using explicit models. We will then look at how we can fit these models to data in order to "learn". The unit is not aimed at giving you a set of tools that you can use to do machine learning but rather give you an understanding so that you can yourself design, choose and understand the right tools to solve real problems.
 </p>
 
 <p>
-Machine Learning is the science of how we can build abstractions of the world from data. In this unit we will start with the fundamental underlying principles and philosophies that allows us to learn and then look at how we can formulate these using explicit models. We will then look at how we can fit these models to data in order to "learn". The unit is not aimed at giving you a set of tools that you can use to do machine learning but rather give you an understanding so that you can yourself design, choose and understand the tools that are around.
+Machine learning is mathematical in nature and a good grasp of linear algebra and multi-variate calculus is recommended in order to fully digest the material. There is lots of good material on the <a href="https://en.wikipedia.org/wiki/Internets">internets</a> that you can brush up your skill with. Particularly good is the upcoming (free) book <a href="https://mml-book.github.io/">Mathematics for Machine Learning</a>. If you feel that it was a long time since you did maths or feel a bit rusty, I recommend that you have a look through this book. A lot of the work we do is with matrices, a very good resource for matrix algebra is the <a href="http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/3274/pdf/imm3274.pdf">The Matrix Cookbook</a>. It doesn't really provide any understanding but if you need a resource to quickly look-up the derivative this is the place to start.
 </p>
-
-<p>
-Machine learning is mathematical in nature and a good grasp of linear algebra and multi-variate calculus is recommended in order to fully digest the material. There is lots of good material on the <a href="https://en.wikipedia.org/wiki/Internets">internets</a> that you can brush up your skill with. Particularly good is the upcoming (free) book <a href="https://mml-book.github.io/">Mathematics for Machine Learning</a>. If you feel that it was a long time since you did math or feel a bit rusty, I recommend that you have a look through this book. A lot of the work we do is with matrices, a very good resource for matrix algebra is the <a href="http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/3274/pdf/imm3274.pdf">The Matrix Cookbook</a>. It doesn't really provide any understanding but if you need a resource to quickly look-up the derivative this is the place to start.
-</p>
-
 
 <div id="outline-container-org48e70ef" class="outline-3">
 <h3 id="org48e70ef">Material</h3>
 <div class="outline-text-3" id="text-org48e70ef">
 <p>
-You can download all the material for the course by checking out the following <a href="https://github.com/carlhenrikek/COMS30007">GitHub repo</a>. Keep up to sync with this repository to access the lectures/coursework and additional material. I am unlikely to keep the links on this website up to date so its the material in the repository that counts. The blackboard site is not used for anything other than to access the video recordings of the lectures. 
+You can download all the material for the course by checking out the following <a href="https://github.com/carlhenrikek/COMS30007">GitHub repo</a>. Keep up to sync with this repository to access the lectures/coursework and additional material. I am unlikely to keep the links on this website up to date so its the material in the repository that counts. The blackboard site is not used for anything other than to access the video recordings of the lectures. If you want to plan ahead you can look at previous years lecture material which you can access by changing branch to <code>2017</code> and <code>2018</code> respectively.
 </p>
 </div>
 </div>
@@ -95,7 +90,7 @@ You can download all the material for the course by checking out the following <
 <h3 id="org8fc2d68">Reddit</h3>
 <div class="outline-text-3" id="text-org8fc2d68">
 <p>
-There is a <a href="http://reddit.com/r/coms30007/">reddit</a> feed associated with the unit. The idea is for this forum to be the main form of interaction outside of lectures. Due to the size of this unit I am not able to interact over email so please direct your questions to the reddit forum rather than mail. 
+There is a <a href="http://reddit.com/r/coms30007/">reddit</a> feed associated with the unit. The idea is for this forum to be the main form of interaction outside of lectures. Due to the size of this unit I am not able to interact over email so please direct your questions to the reddit forum rather than mail. This is a good place to discuss with each other, provide comments to me and importantly it is completely anonymous. Please try to answer each others questions and discuss with each other. If you have comments on the material, suggestions etc. the are very appreciated. Don't worry about expressing your thoughts even if they are critical, it only shows that you care and want the unit to be better.
 </p>
 </div>
 </div>
@@ -108,7 +103,7 @@ According to Wikipedia Ethnography is defined as <i>"Ethnography is the systemat
 </p>
 
 <p>
-Machine learning have and is expected to have an ever greater impact on society, but this interaction goes both ways, society also effects machine learning as a topic. I am very excited to have ethnography PhD student Kate Byron as part of the team this year. Kate is doing research on how social and cultural norms shape machine learning practices. During the unit Kate will run a focus group to discuss the topic and conduct interviews regarding these questions. I think this is a great chance for anyone who is interested not only in the technical details but the "bigger picture" of the topic in society. If you are interested in getting involved please contact <a href="mailto:kate.byron@bristol.ac.uk">Kate Byron</a>.
+Machine learning have and is expected to have an ever greater impact on society, but this interaction goes both ways, society also effects machine learning as a topic. I am very excited to have ethnography PhD student Kate Byron as part of the team this year. Kate is doing research on how social and cultural norms shape machine learning practices. During the unit Kate will run a focus group to discuss the topic and conduct interviews regarding these questions. I think this is a great chance for anyone who is interested not only in the technical details but the "bigger picture" of the topic in society. If you are interested in getting involved please contact <a href="mailto:kate.byron@bristol.ac.uk">Kate Byron</a>. Kate will also give a lecture towards the end of the unit on the ethical implications of machine learning. 
 </p>
 </div>
 </div>
@@ -117,37 +112,34 @@ Machine learning have and is expected to have an ever greater impact on society,
 <h2 id="org7256b63">Lectures</h2>
 <div class="outline-text-2" id="text-org7256b63">
 <p>
-We have two lectures of 1h per week, Monday 15-16 and Tuesday 16-17 both in the Queens Building lecture theatre 1.40. Following the lecture on Tuesday we will have 1h of <i>currated lecture</i> where you tell me what I should talk about. This could either be me going through some of the material from previous lectures in more detail, or it could be a request of something outside the unit that you want to hear about etc. We will use the <code>reddit</code> feed to decide on the material, please upvote things that you like and downvote things that you do not want to hear about. 
+We have two lectures of 1h each week, Monday 12-13 and Tuesday 17-18 both in the Queens Building lecture theatre 1.40. In total there is 10 weeks of taught material with a break for a reading week during week 7 and new for this year we do not have any teaching week 12 and term finishes week 11.
 </p>
 
 <ol class="org-ol">
-<li><a href="https://github.com/carlhenrikek/COMS30007/blob/master/Lectures/01.pdf">Introduction</a> (w1)</li>
-<li>Basic Probabilities (w1)</li>
-<li>Distributions and further Probabilities (w2)</li>
-<li>Linear Regression (w2)</li>
-<li>Dual Linear Regression (w3)</li>
-<li>Gaussian Processes (w3)</li>
-<li>Unsupervised Learning (w4)</li>
-<li>Summary Part I and II (w4)</li>
-<li>Bayesian Optimisation (w5)</li>
-<li>Dirichlet Processes (w5)</li>
-<li>Topic Models (w6)</li>
-<li>Graphical Models (w6)</li>
-<li>Inference I: Laplace Approximation (w7)</li>
-<li>Inference II: Stochastic Methods (w7)</li>
-<li>Inference III: Variational Methods (w9)</li>
-<li>Neural Networks (w9)</li>
-<li>Reinforcement Learning and Decision Making (w9)</li>
-<li><b>Cancelled</b> (w10)</li>
-<li>Dr. Niall Twomey (w10)</li>
-<li>Dr. Raul Santos-Rodriquez (w11)</li>
-<li>Mr. Sam Davis Myrtle AI (w11)</li>
-<li>Summary Lecture (w12)</li>
-<li><b>Cancelled</b> (w12)</li>
+<li>Introduction</li>
+<li>Probabilities</li>
+<li>Distributions</li>
+<li>Gaussian Identities</li>
+<li>Linear Regression</li>
+<li>Dual Linear Regression</li>
+<li>Gaussian Processes</li>
+<li>Unsupervised Learning</li>
+<li>Dirichlet Processes</li>
+<li>Topic Models</li>
+<li>Neural Networks</li>
+<li>Optimisation</li>
+<li>Bayesian Optimisation</li>
+<li>Reinforcement Learning</li>
+<li>Laplace Approximation</li>
+<li>Sampling</li>
+<li>Variational Inference</li>
+<li>Variational Inference (Math)</li>
+<li>Ethical Dilemmas and Machine Learning</li>
+<li>Summary Lecture</li>
 </ol>
 
 <p>
-Last year I wrote a summary document of the lectures that can be found <a href="https://github.com/carlhenrikek/COMS30007/blob/master/Lectures/summary.pdf">here</a> this document is summarising the key points of each lecture and is a good starting point for testing your more abstract understanding of each of the topics. This document will be update during the unit so make sure that you are in sync with the repository.
+Last year I wrote a summary document of the lectures that can be found <a href="https://github.com/carlhenrikek/COMS30007/blob/master/Lectures/summary.pdf">here</a> this document is summarising the key points of each lecture and is a good starting point for testing your more abstract understanding of each of the topics. This document will be update during the unit so make sure that you are in sync with the repository. If you want to prepare for the lectures having a read of this document is a good idea.
 </p>
 </div>
 </div>
@@ -156,207 +148,42 @@ Last year I wrote a summary document of the lectures that can be found <a href="
 <h2 id="org40ca4eb">Practical</h2>
 <div class="outline-text-2" id="text-org40ca4eb">
 <p>
-Each week we have two hours of lab session. During the labs you will work on the coursework (more on this later). You are free to use whatever programming language that you want for the unit. <b>But</b> if you have an interest to continue working in machine learning I strongly recommend that you get used to working with <code>Python</code> as it is quickly become the standard language for ML. To help people kick their <code>matlab</code> habit we will use the first lab session to have a crash-course in <code>Python</code>.
+Each week there is a 2h lab session where we will go implement the methods that we talk about during the lectures. Importantly, the worksheets are there for you to digest the material better and are just a suggestion you are the ones that are responsible for finding the best way of learning the material. The language of choice for machine learning is currently Python, therefore during the first week we will do a quick introduction Python and the main libraries of code that we will use. 
 </p>
+
+<ol class="org-ol">
+<li>Introduction to Python/Numpy</li>
+<li>Distributions and Probabilities</li>
+<li>Linear Regression</li>
+<li>Gaussian Processes</li>
+<li>Evidence</li>
+<li>Unsupervised Learning</li>
+<li>Optimisation</li>
+<li>Sampling</li>
+<li>Variational Inference</li>
+<li>Tensorflow</li>
+</ol>
 
 <p>
-The unit is assessed through two pieces of coursework and a written exam. The coursework should be done in groups of two and submitted in terms of a report. The first assignment is worth 35% of the mark while the second is worth 15%. In addition to submitting a report you should also submit your code. If you for one reason or the other want to work alone on the coursework, come and talk to me first and we will see what we can do about this. The coursework is marked independently of group size.
-</p>
-</div>
-
-<div id="outline-container-orgcee8ccc" class="outline-3">
-<h3 id="orgcee8ccc">Models</h3>
-<div class="outline-text-3" id="text-orgcee8ccc">
-<p>
-The first coursework will cover the material from week 1 to the beginning of week 4 and is mostly focused on how to reason about probabilities and how to build models of data. We will see the strength of priors and look at different ways of incorporating assumptions. 
-</p>
-
-<p>
-You can download the description of the coursework <a href="https://github.com/carlhenrikek/COMS30007/blob/master/Labs/Models/models.pdf">here</a>. The deadline for this will be on the <b>2nd of November</b> in terms of a report that you will submit on SAFE.
+The labs are not assessed your grade will be determined by an exam in the end of the unit. Importantly the labs are designed to be the material that you need to do in order to understand prepare yourself for the exam.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org52230dd" class="outline-3">
-<h3 id="org52230dd">Inference</h3>
-<div class="outline-text-3" id="text-org52230dd">
-<p>
-The second coursework will focus on how we can perform approximative inference in models where it is intractable, computationally or analytically to compute the marginal distribution in closed form. You can download the coursework <a href="https://github.com/carlhenrikek/COMS30007/blob/master/Labs/Inference/inference.pdf">here</a>.
-</p>
-
-<p>
-This coursework will be released in the beginning of week 7 and the deadline will be on the <b>30th of November</b> in terms of a report that you will submit on SAFE.
-</p>
-</div>
-</div>
-
-<div id="outline-container-org9ea0888" class="outline-3">
-<h3 id="org9ea0888">Feedback</h3>
-<div class="outline-text-3" id="text-org9ea0888">
-<p>
-The sheer volume of participants on this unit makes coursework challenging. For me I machine learning is something that you learn by iterating theory with practical implementation. Therefore I believe that it is important to keep the coursework as a part of this unit. I also believe that consistent marking is important and therefore I want to mark the coursework on my own rather than dividing the work up between me and the TAs. To get this equation to work something has to give, this year I've decided that rather than giving everyone individual feedback I will have a dedicated lecture slot where I go through the coursework. This is not ideal but I believe it is the best we can do.
-</p>
-</div>
-</div>
-</div>
-
-<div id="outline-container-org764cbf0" class="outline-2">
-<h2 id="org764cbf0">Book</h2>
-<div class="outline-text-2" id="text-org764cbf0">
+<div id="outline-container-org36f1ce5" class="outline-2">
+<h2 id="org36f1ce5">Material</h2>
+<div class="outline-text-2" id="text-org36f1ce5">
 <dl id="" class="wp-caption alignright" style="max-width: 50px">
 
-<dt><a href=""><img class="" src="/bin/bishop.jpg" alt="" /></a></dt>
+<dt><a href=""><img class="" src="bin/bishop.jpg" alt="" /></a></dt>
 
 <dd></dd>
 </dl>
 
 
 <p>
-We will use <b>Bishop, C. M., Pattern recognition and machine learning (2006)</b> for most parts of this unit. The book is an excellent introduction to machine learning and one of the few that provides a consistent and rigourous narrative rather than falling into the trap and becomming a cookbook for practitioners.
+We will use <b>Bishop, C. M., Pattern recognition and machine learning (2006)</b> for most parts of this unit. The book is an excellent introduction to machine learning and one of the few that provides a consistent and rigorous narrative rather than falling into the trap and becoming a cookbook for practitioners. The book is freely availible <a href="https://www.microsoft.com/en-us/research/people/cmbishop/">here</a>. As the book is rather old we will for a few of the topics use other material that is freely available.
 </p>
-
-<p>
-The key to reading this book is to get the first chapter well, if you understand this then the rest of the book should be decipherable. So do spend a lot of time reading through that first chapter and really get the implications on what is said.
-</p>
-</div>
-
-<div id="outline-container-org66d5df4" class="outline-3">
-<h3 id="org66d5df4">Reading List</h3>
-<div class="outline-text-3" id="text-org66d5df4">
-<table border="2" cellspacing="0" cellpadding="6" rules="all" frame="border" class="striped table-striped">
-
-
-<colgroup>
-<col  class="org-right" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-</colgroup>
-<thead>
-<tr>
-<th scope="col" class="org-right">Lecture</th>
-<th scope="col" class="org-left">Bishop</th>
-<th scope="col" class="org-left">Other Material</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="org-right">1</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-right">2</td>
-<td class="org-left">1.1, 1.2.1-4, 1.3, 1.4</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-right">3</td>
-<td class="org-left">2-2.3.5, 2.3.9, (2.4)</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-right">4</td>
-<td class="org-left">3.1, 3.3-3.6</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-right">5</td>
-<td class="org-left">6-6.2</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-right">6</td>
-<td class="org-left">6.4-6.4.2</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-right">7</td>
-<td class="org-left">6.4.3-6.4.4, 12.2-12.2.1</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-right">8</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-right">9</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-right">10</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-right">11</td>
-<td class="org-left">8.1-3</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-right">12</td>
-<td class="org-left">4.3-4.4</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-right">13</td>
-<td class="org-left">11.1.0-2,11.1.4, 11.2.0,11.3</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-right">14</td>
-<td class="org-left">10.1, 10.3</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-right">15</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-right">16</td>
-<td class="org-left">5-5.3</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-right">17</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-right">18</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-right">19</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-</tbody>
-</table>
-</div>
 </div>
 </div>
 
